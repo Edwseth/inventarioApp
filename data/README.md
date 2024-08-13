@@ -46,29 +46,21 @@ Esta es una aplicación básica de gestión de inventario construida con HTML, C
     ```
 ## Estructura del Proyecto
 
-inventarioApp/
-├── data/
-│   └── db.json
-├── public/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── server.js
-└── package.json
+![EstructuraProyecto](https://github.com/user-attachments/assets/f523a1c5-c675-479e-9d7a-3bb9bbcb871b)
 
-*data/db.json: Archivo JSON donde se almacenan los datos del inventario.
-*public/index.html: Archivo HTML principal de la interfaz de usuario.
-*public/styles.css: Archivo CSS para los estilos de la interfaz de usuario.
-*public/script.js: Archivo JavaScript que maneja la lógica del cliente.
-*server.js: Archivo principal del servidor que maneja las solicitudes de la API.
-*package.json: Archivo que lista las dependencias y scripts del proyecto.
+- **data/db.json:** Archivo JSON donde se almacenan los datos del inventario.
+- **public/index.html:** Archivo HTML principal de la interfaz de usuario.
+- **public/styles.css:** Archivo CSS para los estilos de la interfaz de usuario.
+- **public/script.js:** Archivo JavaScript que maneja la lógica del cliente.
+- **server.js:** Archivo principal del servidor que maneja las solicitudes de la API.
+- **package.json:** Archivo que lista las dependencias y scripts del proyecto.
 
 ## API
 
 La aplicación tiene dos rutas principales para la API:
 
-*GET /api/products: Devuelve la lista de productos.
-*POST /api/products: Agrega un nuevo producto al inventario.
+- **GET /api/products:** Devuelve la lista de productos.
+- **POST /api/products:** Agrega un nuevo producto al inventario.
 
 ## Contribución
 
